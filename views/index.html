@@ -1,0 +1,65 @@
+<html>
+<head>
+	<title>Check out</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='http://10.44.15.105/static/base/img/algo.jpg' rel='icon' type='image/x-icon'/>
+	<script type="text/javascript" src="http://10.44.172.109:3636/socket.io/socket.io.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://10.44.15.105/static/base/css/base.css">
+    <link rel="stylesheet" type="text/css" href="http://10.44.15.105/static/streaming/css/main.css">
+
+    <style type="text/css">
+    body{
+        font-size: 16px;
+    } 
+    img {
+        width: auto\9;
+        height: auto;
+        max-width: 100%;
+        vertical-align: middle;
+        border: 0;
+        -ms-interpolation-mode: bicubic;
+    }
+    .usuarioIMGConectados {
+        width: 32px;
+        height: 32px;
+        margin: 0px;
+        padding: 0px;
+        display: inline-block;
+        vertical-align: baseline;
+    }
+    #usuaMensaje{
+        font-size: 20px;
+    }
+    
+    </style>
+    <script src="http://10.44.15.105/static/base/vendor/jquery-1.10.2.min.js"></script>
+    <script src="http://10.44.172.109:3000/socket.io/socket.io.js"></script>
+    <script src="http://10.44.15.105/static/base/js/base.js"></script>
+    <script src="http://10.44.15.105/static/streaming/js/main.js"></script>
+    <script src="http://10.44.15.105/static/base/vendor/jquery.timeago.js" type="text/javascript"></script>
+    <script src="http://10.44.15.105/static/base/vendor/jquery.timeago.es.js" type="text/javascript"></script>
+</head>
+<body>
+<section id="chatlive" style="width:100%;">
+    <!--<div id="ingresaNombre">
+        <div id="setNombre" class="pantalla">
+            <form id="formNombre" class="form">
+                <label for="name">Nick Nombre:</label>
+                <input type="text" name="name" id="name" placeholder="Set your nickname"/>
+                <input type="submit" value="Enviar" id="setNick" class="btnLogIn"/>
+            </form>
+        </div>
+    </div>-->
+
+    <div id="contChat">
+        <div id="miChat">
+            <div id="chat"  style="height:100%;">
+                <div id="chatInsite"/>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
+
+

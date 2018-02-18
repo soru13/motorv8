@@ -1,0 +1,86 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'forever' ]
+2 info using npm@1.2.18
+3 info using node@v0.10.4
+4 verbose read json /usr/MotorV8/package.json
+5 warn package.json RobotPythonLive@0.3.0 No README.md file found!
+6 verbose read json /usr/MotorV8/node_modules/connect/package.json
+7 verbose read json /usr/MotorV8/node_modules/connect-mongo/package.json
+8 verbose read json /usr/MotorV8/node_modules/consolidate/package.json
+9 verbose read json /usr/MotorV8/node_modules/cookie/package.json
+10 verbose read json /usr/MotorV8/node_modules/datejs/package.json
+11 verbose read json /usr/MotorV8/node_modules/express/package.json
+12 verbose read json /usr/MotorV8/node_modules/express-mongoose/package.json
+13 verbose read json /usr/MotorV8/node_modules/jade/package.json
+14 verbose read json /usr/MotorV8/node_modules/mocha/package.json
+15 verbose read json /usr/MotorV8/node_modules/mongodb/package.json
+16 verbose read json /usr/MotorV8/node_modules/mongoose/package.json
+17 verbose read json /usr/MotorV8/node_modules/passport/package.json
+18 verbose read json /usr/MotorV8/node_modules/passport-facebook/package.json
+19 verbose read json /usr/MotorV8/node_modules/passport-twitter/package.json
+20 verbose read json /usr/MotorV8/node_modules/pg/package.json
+21 verbose read json /usr/MotorV8/node_modules/raven/package.json
+22 verbose read json /usr/MotorV8/node_modules/request/package.json
+23 verbose read json /usr/MotorV8/node_modules/socket.io/package.json
+24 verbose read json /usr/MotorV8/node_modules/socket.io-clusterhub/package.json
+25 verbose read json /usr/MotorV8/node_modules/supervisor/package.json
+26 verbose read json /usr/MotorV8/node_modules/swig/package.json
+27 verbose read json /usr/MotorV8/node_modules/toobusy/package.json
+28 verbose from cache /usr/MotorV8/package.json
+29 verbose readDependencies using package.json deps
+30 verbose cache add [ 'forever', null ]
+31 verbose cache add name=undefined spec="forever" args=["forever",null]
+32 verbose parsed url { protocol: null,
+32 verbose parsed url   slashes: null,
+32 verbose parsed url   auth: null,
+32 verbose parsed url   host: null,
+32 verbose parsed url   port: null,
+32 verbose parsed url   hostname: null,
+32 verbose parsed url   hash: null,
+32 verbose parsed url   search: null,
+32 verbose parsed url   query: null,
+32 verbose parsed url   pathname: 'forever',
+32 verbose parsed url   path: 'forever',
+32 verbose parsed url   href: 'forever' }
+33 silly lockFile e07f8c4a-forever forever
+34 verbose lock forever /home/desroot/.npm/e07f8c4a-forever.lock
+35 silly lockFile e07f8c4a-forever forever
+36 silly lockFile e07f8c4a-forever forever
+37 verbose addNamed [ 'forever', '' ]
+38 verbose addNamed [ null, '' ]
+39 silly lockFile 28ef027b-forever forever@
+40 verbose lock forever@ /home/desroot/.npm/28ef027b-forever.lock
+41 silly addNameRange { name: 'forever', range: '', hasData: false }
+42 verbose url raw forever
+43 verbose url resolving [ 'https://registry.npmjs.org/', './forever' ]
+44 verbose url resolved https://registry.npmjs.org/forever
+45 info trying registry request attempt 1 at 14:52:52
+46 http GET https://registry.npmjs.org/forever
+47 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Parse Error
+48 info trying registry request attempt 2 at 14:53:02
+49 http GET https://registry.npmjs.org/forever
+50 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=Parse Error
+51 info trying registry request attempt 3 at 14:54:02
+52 http GET https://registry.npmjs.org/forever
+53 silly lockFile 28ef027b-forever forever@
+54 silly lockFile 28ef027b-forever forever@
+55 error Error: tunneling socket could not be established, cause=Parse Error
+55 error     at ClientRequest.onError (/usr/local/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:159:17)
+55 error     at ClientRequest.g (events.js:175:14)
+55 error     at ClientRequest.EventEmitter.emit (events.js:95:17)
+55 error     at Socket.socketOnData (http.js:1528:9)
+55 error     at TCP.onread (net.js:510:27)
+56 error If you need help, you may report this log at:
+56 error     <http://github.com/isaacs/npm/issues>
+56 error or email it to:
+56 error     <npm-@googlegroups.com>
+57 error System Linux 2.6.32-358.23.2.el6.x86_64
+58 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "forever"
+59 error cwd /usr/MotorV8
+60 error node -v v0.10.4
+61 error npm -v 1.2.18
+62 error code ECONNRESET
+63 verbose exit [ 1, true ]

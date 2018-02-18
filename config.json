@@ -1,0 +1,19 @@
+{
+    "port": 3000,
+    "host": "localhost",
+    "db": {
+        "name": "Coppel"
+    },
+    "session": {
+        "secret": "",
+        "key": ""
+    }, 
+    "cookie": {
+        "secret": ""
+    },
+    "secure": false,
+    "loginsecure": false,
+    "key": "",
+    "cert": "",
+    "sentry": "dsn"
+}
